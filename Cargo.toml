@@ -1,0 +1,8 @@
+[workspace]
+
+members = [
+    "components/rust-esp-rs-idf-poc",
+    "components/ui",
+    "components/aa",
+    "components/ui_simulator",
+]

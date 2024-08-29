@@ -1,0 +1,7 @@
+/.vscode
+/.embuild
+build/
+components/*/target/
+Cargo.lock
+cmake-build-debug/
+target/
