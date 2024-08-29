@@ -3,5 +3,5 @@
 members = [
     "components/rust-esp-rs-idf-poc",
     "components/ui",
-    "components/ui_simulator",
+    # "components/ui_simulator",
 ]
