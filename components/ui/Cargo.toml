@@ -8,7 +8,7 @@ edition = "2021"
 # crate-type = ["cdylib"]
 
 [dependencies]
-slint = { version = "1.7.2", default-features = false, features = ["compat-1-2", "unsafe-single-threaded", "libm", "renderer-software", "no_std"] }
+slint = { version = "1.7.2", default-features = false, features = ["compat-1-2", "unsafe-single-threaded", "libm", "renderer-software"] }
 
 [build-dependencies]
 slint-build = "1.7.2"
