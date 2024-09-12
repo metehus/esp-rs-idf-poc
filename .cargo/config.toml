@@ -1,0 +1,10 @@
+[build]
+target = "xtensa-esp32s3-espidf"
+
+[unstable]
+build-std = ["std", "panic_abort"]
+
+[target.xtensa-esp32s3-espidf]
+linker = "ldproxy"
+runner = "espflash flash --monitor" # Select this runner for espflash v3.x.x
+rustflags = [ "--cfg",  "espidf_time64"] 
